@@ -1,3 +1,9 @@
+#skills .container .contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 .skills-header {
     display: flex;
     align-items: center;
@@ -58,37 +64,28 @@
   }
   
   .skills-css {
-    width: 89%;
+    width: 90%;
   }
   
   .skills-js {
     width: 70%;
   }
   
-  .skills-bootstrap {
+  /* .skills-bootstrap {
     width: 62%;
-  }
+  } */
   
+  .skills-scss{
+    width: 70%;
+  }
+  .skills-Tailwind-css{
+    width: 80%;
+  }
   .skills-react {
     width: 50%;
   }
   
-  .skills-figma {
-    width: 85%;
-  }
-  
-  .skills-xd {
-    width: 71%;
-  }
-  
-  .skills-sketch {
-    width: 67%;
-  }
-  
-  .skills-ai {
-    width: 61%;
-  }
-  
+ 
   .skills-close .skills-list {
     height: 0;
     overflow: hidden;
