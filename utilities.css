@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 15px;
+  }
+  
+  html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 5rem;
+  }
+  
+  
+  body {
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    color: #525252;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: #000;
+    line-height: 1.2;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+  }
+  
+  h5 {
+    font-size: 0.86rem;
+  }
+  
+  p {
+    line-height: 1.8;
+  }

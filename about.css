@@ -1,0 +1,45 @@
+section.about {
+    background: #f4f4f4;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  
+
+  .about h2 {
+    text-align: center;
+  }
+
+  .about img{
+    width:350px;
+    height:350px;
+    border-radius: 50%;
+    margin-left: 70px;
+
+  }
+
+  .about .image{
+    border: 3px solid #000;
+    border-radius: 50%;
+    background:transparent;
+    width:350px;
+    height:350px;
+
+  }
+
+
+  section.about .container {
+    display: grid;
+    grid-template-columns: 26rem auto;
+    gap: 10rem;
+    margin-top: 30px;
+  }
+  
+  section.about .about-content p {
+    font-size: 1rem;
+  }
+  
+
+  .about-content{
+    
+  }
+  
