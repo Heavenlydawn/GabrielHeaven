@@ -1,9 +1,27 @@
-#skills .container .contents{
+/* #skills .container .contents{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+} */
+
+
+.skills .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+.skills .container .skill-images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills .container .skill-images img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
 .skills-header {
     display: flex;
     align-items: center;

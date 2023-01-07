@@ -22,16 +22,18 @@ footer {
   
   footer .container ul a {
     color: #000;
+
     transition: var(--transition);
   }
   
   footer .container ul a:hover {
-    color: #000;
+    color: #999;
+    border-bottom: 1px solid #999;
   }
   
   footer .container .socials {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
   }
   
   footer .container .socials a {
@@ -53,6 +55,6 @@ footer {
     text-align: center;
     margin-top: 3rem;
     padding: 2rem 0;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   

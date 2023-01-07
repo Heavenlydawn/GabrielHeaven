@@ -46,7 +46,7 @@ img {
   background: #000;
 }
 
-/*nav styling*/
+/*nav section*/
 
 .navbar {
   width: 100%;
@@ -108,7 +108,7 @@ nav h3 {
 }
 
 
-/*portfolio section styling*/
+/*portfolio section*/
 section.portfolio {
   background: #f4f4f4;
 }
@@ -142,8 +142,3 @@ section.portfolio .projects .project .action a {
 section .portfolio .projects .project .action a:hover {
   text-decoration: underline;
 }
-
-
-
-
-
