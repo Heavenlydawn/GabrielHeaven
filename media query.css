@@ -1,5 +1,5 @@
 /*media query*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   h1 {
     font-size: 2.2rem;
   }
@@ -148,12 +148,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  section.about .container .about-content {
+    margin-top:30px;
   }
 
   section .about .container .image img {
     width: 26rem;
     height: 26rem;
     border-radius: 50rem;
+  }
+
+  /* Skill Section */
+  .skills .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills .container .skill-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5em;
   }
 
   /*portfolio*/
