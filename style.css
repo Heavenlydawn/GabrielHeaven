@@ -109,36 +109,36 @@ nav h3 {
 
 
 /*portfolio section*/
-section.portfolio {
+section.projects {
   background: #f4f4f4;
 }
 
-section.portfolio h1 {
+section.projects h1 {
   margin-bottom: 2rem;
 }
 
-section.portfolio h4 {
+section.projects h4 {
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 200;
 }
 
-section.portfolio .projects {
+section.projects .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
 }
 
-section.portfolio .projects .project {
+section.projects .projects .project {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-section.portfolio .projects .project .action a {
+section.projects .projects .project .action a {
   color: #000;
 }
 
-section .portfolio .projects .project .action a:hover {
+section .projects .projects .project .action a:hover {
   text-decoration: underline;
 }

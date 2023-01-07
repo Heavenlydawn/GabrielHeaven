@@ -169,15 +169,15 @@
   .skills .container .skill-images{
     display: flex;
     flex-wrap: wrap;
-    gap:5em;
+    gap:3em;
   }
 
-  /*portfolio*/
-  section.portfolio .container .projects {
+  /*projects*/
+  section.projects .container .projects {
     grid-template-columns: 1fr;
   }
 
-  section.portfolio .container .thumbnail img {
+  section.projects .container .thumbnail img {
     border-radius: 1rem;
   }
 
