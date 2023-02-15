@@ -15,7 +15,7 @@
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
 	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 </head>
@@ -26,10 +26,10 @@
 		<div class="container">
 			<a href="#"><h3>Gabriel Heaven</h3></a>
 			<ul class="menu">
-				<li><a href="#home" class="active">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#projects">Projects</a></li>			
+				<li><a href="#home" class="active navLink">Home</a></li>
+				<li><a href="#about" class="navLink">About</a></li>
+				<li><a href="#skills" class="navLink">Skills</a></li>
+				<li><a href="#projects" class="navLink">Projects</a></li>			
 			</ul>	
 		</div>
 		<i class="fas fa-bars" id="menubar"></i>				
@@ -73,7 +73,7 @@
 				<a href="https://twitter.com/GabrielHeavenl1" target="_blank"><i class="uil uil-twitter"></i></a>
 				<a href="https://heavenly.hashnode.dev/" target="_blank"><i class="uil uil-pen"></i></a>
 				<a href="https://github.com/Heavenlydawn" target="_blank"><i class="uil uil-github"></i></a>
-				<a href="mailto:gabrielheavenlydawn@gmail.com"><i class="uil uil-envelope"></i></i></a>
+				<a href="mailto:gabrielheavenlydawn@gmail.com"><i class="uil uil-envelope"></i></a>
 			</div>
 
 			<a href="#" class="btn btn-primary" onclick="toggle()">Close</a>
@@ -109,129 +109,46 @@
 	
 	<!--skills section-->
 	<section class="skills" id="skills">
-		<h1 class="section-titile">Skills</h1>
+		<h1 class="section-titile">SKILLS</h1>
 		
 		<div class="container">
 			<div class="contents">
-
-				<!--skill one-->
-
 				<div class="skills-content skills-open">
-					<div class="skills-header">
-						<!-- <i class="uil uil-brackets-curly skills-icon"></i> -->
-
 					<div>
 						<h3 class="skills-title"> < Frontend developer /> </h3>
 					</div>
-
-						<!-- <i class="uil uil-angle-down skills-arrow"></i> -->
-					</div>
-
-
-
-					<!-- <div class="skills-list">
-						<div class="skills-data">
-							<div class="skills-titles">
-								<h4 class="skills-name">HTML</h4>
-								<span class="skills-number">95%</span>
-							</div>
-							<div class="skills-bar">
-								<span class="skills-percentage skills-html"></span>
-							</div>
-						</div> -->
-
-						<!--skill Two-->
-
-						<!-- <div class="skills-data">
-							<div class="skills-titles">
-								<h4 class="skills-name">CSS</h4>
-								<span class="skills-number">90%</span>
-							</div>
-							<div class="skills-bar">
-								<span class="skills-percentage skills-css"></span>
-							</div>
-						</div> -->
-
-						<!--skill Three-->
-
-            <!-- <div class="skills-data">
-							<div class="skills-titles">
-								<h4 class="skills-name">SCSS(SASS)</h4>
-								<span class="skills-number">70%</span>
-							</div>
-							<div class="skills-bar">
-								<span class="skills-percentage skills-scss"></span>
-							</div>
-						</div> -->
-
-
-						<!--skill Four-->
-
-            <!-- <div class="skills-data">
-							<div class="skills-titles">
-								<h4 class="skills-name">Tailwind CSS</h4>
-								<span class="skills-number">80%</span>
-							</div>
-							<div class="skills-bar">
-								<span class="skills-percentage skills-Tailwind-css"></span>
-							</div>
-						</div> -->
-
-						<!--skill five-->
-
-						<!-- <div class="skills-data">
-							<div class="skills-titles">
-								<h4 class="skills-name">Bootstrap</h4>
-								<span class="skills-number">62%</span>
-							</div>
-							<div class="skills-bar">
-								<span class="skills-percentage skills-bootstrap"></span>
-							</div>
-						</div> -->
-
-
-						<!--skill six-->
-
-						<!-- <div class="skills-data">
-							<div class="skills-titles">
-								<h4 class="skills-name">Javascipt</h4>
-								<span class="skills-number">60%</span>
-							</div>
-							<div class="skills-bar">
-								<span class="skills-percentage skills-react"></span>
-							</div>
-						</div> -->
-
-						<!--skill Seven-->
-
-						<!-- <div class="skills-data">
-							<div class="skills-titles">
-								<h4 class="skills-name">ReactJs</h4>
-								<span class="skills-number">60%</span>
-							</div>
-							<div class="skills-bar">
-								<span class="skills-percentage skills-js"></span>
-							</div>
-						</div>
-					</div>
-				</div> -->
-
 			</div>
-			
-			
 		</div>
-		<div class="skill-images">
-			<img src="./Images/html.png" alt="html">
-			<img src="./Images/css.png" alt="css">
-			<img src="./Images/sass.png" alt="sass">
-			<img src="./Images/tailwind.png" alt="Tailwind">
-			<img src="./Images/js.png" alt="javascript">
-			<img src="./Images/reactjs.png" alt="reactjs">
-		</div>
+
+		<section class="languages">
+            <div class="container flex">
+                <div class="card">
+                    <h4>HTML</h4>
+					<img src="./Images/html.png" alt="html">
+                </div>
+                <div class="card">
+                    <h4>CSS</h4>
+                    <img src="./Images/css.png" alt="css">
+                </div>
+                <div class="card">
+                    <h4>SASS</h4>
+					<img src="./Images/sass.png" alt="sass">
+                </div>
+                <div class="card">
+                    <h4>TAILWIND</h4>
+                    <img src="./Images/tailwind.png" alt="Tailwind">
+                </div>
+                <div class="card">
+                    <h4>JAVASCRIPT</h4>
+					<img src="./Images/js.png" alt="javascript">
+                </div>
+                <div class="card">
+                    <h4>REACT.JS</h4>
+					<img src="./Images/reactjs.png" alt="reactjs">
+                </div>
+            </div>
+    </section>
 	</section>
-
-
-
 
 
 	<!--Portfolio section-->

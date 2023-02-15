@@ -1,4 +1,6 @@
-const menuBar = document.getElementById("menu-bar")
+const menuBar = document.getElementById("menubar")
+const navMenu = document.querySelector(".menu")
+const navLink = document.querySelectorAll(".navLink")
 
 
 function toggle(){
@@ -8,6 +10,8 @@ function toggle(){
     popup.classList.toggle('active');
 }
 
-menuBar.addEventListener(onclick, function(){
-    alert("I was clicked")
+menuBar.addEventListener("click", function navToggle(){
+        if (navMenu === ){
+            na
+        }
 })

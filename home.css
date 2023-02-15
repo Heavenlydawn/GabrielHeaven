@@ -138,6 +138,9 @@
     width: 35rem;
   }
   
+
+  /* Home Animation Outer and Inner Circle */
+ 
   section.home .profile-area {
     display: flex;
     justify-content: center;
@@ -201,6 +204,7 @@
     border-radius: 50%;
     overflow: hidden;
   }
+  /* End of Animation Section */
   
   section.home .home-content a {
     font-size: 0.86rem;
