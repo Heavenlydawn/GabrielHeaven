@@ -15,3 +15,4 @@ menuBar.addEventListener("click", function navToggle(){
             na
         }
 })
+

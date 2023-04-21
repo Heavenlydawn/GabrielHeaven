@@ -172,6 +172,10 @@
     gap:3em;
   }
 
+    .skills .skills-title{
+      font-size: 1.2rem;
+      margin-left: 15px;
+    }
   /*projects*/
   section.projects .container .projects {
     grid-template-columns: 1fr;
