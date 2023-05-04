@@ -1,278 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="./utilities.css">
-	<link rel="stylesheet" href="./home.css">
-	<link rel="stylesheet" href="about.css">
-	<link rel="stylesheet" href="./skill.css">
-	<link rel="stylesheet" href="./footer.css">
-	<link rel="stylesheet" href="./media query.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="./utilities.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="./skill.css" />
+    <link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="./media query.css" />
+    <link rel="stylesheet" href="slides.css" />
 
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
-	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
-	<!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--navigation section-->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#"><h3>Gabriel Heaven</h3></a>
+        <ul class="menu">
+          <li><a href="#home" class="active navLink">Home</a></li>
+          <li><a href="#about" class="navLink">About</a></li>
+          <li><a href="#skills" class="navLink">Skills</a></li>
+          <li><a href="#projects" class="navLink">Projects</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" id="menubar"></i>
+    </nav>
+    <!-- End of navigation section -->
 
-</head>
-<body>
-  
-  <!--navigation section-->
-	<nav class="navbar">
-		<div class="container">
-			<a href="#"><h3>Gabriel Heaven</h3></a>
-			<ul class="menu">
-				<li><a href="#home" class="active navLink">Home</a></li>
-				<li><a href="#about" class="navLink">About</a></li>
-				<li><a href="#skills" class="navLink">Skills</a></li>
-				<li><a href="#projects" class="navLink">Projects</a></li>			
-			</ul>	
-		</div>
-		<i class="fas fa-bars" id="menubar"></i>				
-	</nav>
-	<!-- End of navigation section -->
+    <!--home section-->
+    <section class="home" id="home">
+      <div class="container" id="blur">
+        <div class="socials">
+          <a href="https://twitter.com/GabrielHeavenl1" target="_blank"
+            ><i class="uil uil-twitter"></i
+          ></a>
+          <a href="https://github.com/Heavenlydawn" target="_blank"
+            ><i class="uil uil-github"></i
+          ></a>
+          <a href="https://hashnode.com/@Heavenly" target="_blank"
+            ><i class="uil uil-pen"></i
+          ></a>
+        </div>
 
-	<!--home section-->
-	<section class="home" id="home">
-		<div class="container" id="blur">
-			<div class="socials">
-				<a href="https://twitter.com/GabrielHeavenl1" target="_blank"><i class="uil uil-twitter"></i></a>
-				<a href="https://github.com/Heavenlydawn" target="_blank"><i class="uil uil-github"></i></a>
-				<a href="https://hashnode.com/@Heavenly" target="_blank"><i class="uil uil-pen"></i></a>
-			</div>
+        <div class="home-content">
+          <h1>Frontend Software Engineer</h1>
+          <h3>Hello, I'm Gabriel Heaven</h3>
+          <p>
+            A Frontend Software Engineer, structuring and building the
+            client-side websites and Web Applications
+          </p>
+          <a
+            href="https://wa.me/2347088808842"
+            class="btn btn-primary"
+            onclick="toggle()"
+            >Let's chat <i class="uil uil-message"></i
+          ></a>
 
-			<div class="home-content">
-				<h1>Frontend Software Engineer</h1>
-				<h3>Hello, I'm Gabriel Heaven</h3>
-				<p>A Frontend Software Engineer, structuring and building the client-side websites and Web Applications</p>
-				<a href="https://wa.me/2347088808842" class="btn btn-primary" onclick="toggle()">Let's chat <i class="uil uil-message"></i></a>
+          <a
+            href="https://drive.google.com/file/d/1fVzpbfoOQCS8gQR3yAIl5xDGSQFcunp5/view?usp=share_link"
+            class="btn btn-primary"
+            >Download Resume <i class="uil uil-file-download"></i
+          ></a>
+        </div>
 
-				<a href="https://drive.google.com/file/d/1fVzpbfoOQCS8gQR3yAIl5xDGSQFcunp5/view?usp=share_link" class="btn btn-primary">Download Resume <i class="uil uil-file-download"></i></a>
-			</div>
-			
-			<div class="profile-area">
-				<div class="outer-circle">
-					<span class="material-icons-sharp">design_services</span>
-					<span class="material-icons-sharp">code</span>
-					<span class="material-icons-sharp">code_off</span> 
-					<span class="material-icons-sharp">design_services</span>
-				</div>
-				<div class="inner-circle">
-					<img src="./Images/Protfolio-Image.jpg" alt>
-			    </div>
-			</div>	
-		</div>
+        <div class="profile-area">
+          <div class="outer-circle">
+            <span class="material-icons-sharp">design_services</span>
+            <span class="material-icons-sharp">code</span>
+            <span class="material-icons-sharp">code_off</span>
+            <span class="material-icons-sharp">design_services</span>
+          </div>
+          <div class="inner-circle">
+            <img src="./Images/Protfolio-Image.jpg" alt />
+          </div>
+        </div>
+      </div>
 
-		<div id="popup">
-			<h2>Social Icons</h2>
-			<div class="social-icon">
-				<a href="https://twitter.com/GabrielHeavenl1" target="_blank"><i class="uil uil-twitter"></i></a>
-				<a href="https://heavenly.hashnode.dev/" target="_blank"><i class="uil uil-pen"></i></a>
-				<a href="https://github.com/Heavenlydawn" target="_blank"><i class="uil uil-github"></i></a>
-				<a href="mailto:gabrielheavenlydawn@gmail.com"><i class="uil uil-envelope"></i></a>
-			</div>
+      <div id="popup">
+        <h2>Social Icons</h2>
+        <div class="social-icon">
+          <a href="https://twitter.com/GabrielHeavenl1" target="_blank"
+            ><i class="uil uil-twitter"></i
+          ></a>
+          <a href="https://heavenly.hashnode.dev/" target="_blank"
+            ><i class="uil uil-pen"></i
+          ></a>
+          <a href="https://github.com/Heavenlydawn" target="_blank"
+            ><i class="uil uil-github"></i
+          ></a>
+          <a href="mailto:gabrielheavenlydawn@gmail.com"
+            ><i class="uil uil-envelope"></i
+          ></a>
+        </div>
 
-			<a href="#" class="btn btn-primary" onclick="toggle()">Close</a>
-		</div>
-	</section>
-
-
-
-
-	<!--about section-->
-	<section class="about" id="about">
-		<h2>THE PEREGRINATION OF A SOFTWARE ENGINEER</h2>
-		<div class="container">
-			<div class="image">
-				<img src="./Images/user.jpg" alt="">
-			</div>
-			<div class="about-content">
-				<p>
-					Happy to have you here,<br /> 
-					My name is Heaven, and I'm a Frontend Software Engineer.
-					I studied Human Anatomy in the university, after which I discovered and developed my love for Programming
-					I specialize in bringing into realization the very fabric of the web that seems just imaginary, I use vanilla HTML, CSS, and JavaScript, I also use a JavScript Framework known as Reactjs. 
-          			I can plan, write, build, launch, and maintain a web app.
-          			A website developer knows no bounds. And when they find one they cross it without hesitation, boldly going into the unknown to return fierce for it.
-				</p>
-			</div>
-		</div>
-	</section>
-
-
-
-
-	
-	<!--skills section-->
-	<section class="skills" id="skills">
-		<h1 class="section-titile">SKILLS</h1>
-		
-		<div class="container">
-			<div class="contents">
-				<div class="skills-content skills-open">
-					<div>
-						<h3 class="skills-title"> < Frontend developer /> </h3>
-					</div>
-			</div>
-		</div>
-
-		<section class="languages">
-            <div class="container flex">
-                <div class="card">
-                    <h4>HTML</h4>
-					<img src="./Images/html.png" alt="html">
-                </div>
-                <div class="card">
-                    <h4>CSS</h4>
-                    <img src="./Images/css.png" alt="css">
-                </div>
-                <div class="card">
-                    <h4>SASS</h4>
-					<img src="./Images/sass.png" alt="sass">
-                </div>
-                <div class="card">
-                    <h4>TAILWIND</h4>
-                    <img src="./Images/tailwind.png" alt="Tailwind">
-                </div>
-                <div class="card">
-                    <h4>JAVASCRIPT</h4>
-					<img src="./Images/js.png" alt="javascript">
-                </div>
-                <div class="card">
-                    <h4>REACT.JS</h4>
-					<img src="./Images/reactjs.png" alt="reactjs">
-                </div>
-            </div>
+        <a href="#" class="btn btn-primary" onclick="toggle()">Close</a>
+      </div>
     </section>
-	</section>
 
+    <!--about section-->
+    <section class="about" id="about">
+      <h2>THE PEREGRINATION OF A SOFTWARE ENGINEER</h2>
+      <div class="container">
+        <div class="image">
+          <img src="./Images/user.jpg" alt="" />
+        </div>
+        <div class="about-content">
+          <p>
+            Happy to have you here,<br />
+            My name is Heaven, and I'm a Frontend Software Engineer. I studied
+            Human Anatomy in the university, after which I discovered and
+            developed my love for Programming I specialize in bringing into
+            realization the very fabric of the web that seems just imaginary, I
+            use vanilla HTML, CSS, and JavaScript, I also use a JavScript
+            Framework known as Reactjs. I can plan, write, build, launch, and
+            maintain a web app. A website developer knows no bounds. And when
+            they find one they cross it without hesitation, boldly going into
+            the unknown to return fierce for it.
+          </p>
+        </div>
+      </div>
 
-	<!--Portfolio section-->
-	<section class="projects" id="projects">
-		<div class="container">
-			<h1>Projects</h1>
-			<h4>A Preview to my completed projects</h4>
-			<div class="projects">
+      <!-- Gallery of projects done -->
+      <h1>PROJECT GALLERY</h1>
+      <div class="slides">
+          <h2>TITA</h2>
+          <h2>Loruki</h2>
+          <h2>Music App</h2>
+          <h2>New years App</h2>
+          <h2>Portfolio</h2>
+        <div class="img-slider"></div>
+      </div>
+    </section>
 
+    <!--skills section-->
+    <section class="skills" id="skills">
+      <h1 class="section-titile">SKILLS</h1>
 
+      <div class="container">
+        <div class="contents">
+          <div class="skills-content skills-open">
+            <div>
+              <h3 class="skills-title">< Frontend developer /></h3>
+            </div>
+          </div>
+        </div>
 
-				<div class="project">
-					<div class="thumbnail">
-					   <img src="./Images/TITA.png" alt="portfolio website">
-				    </div>
-					<h2>A FinTech App</h2>
-					<p>This is a responsive Financial Tech App, built using HTML CSS and javascript.</p>
-					<div class="action">
-						<a href="https://tita-heaven.netlify.app/" target="_blank">Live Demo<i class="uil uil-eye"></i> </a>
-						<a href="https://github.com/Heavenlydawn/TITA-FinTech" target="_blank">Github<i class="uil uil-github-alt"></i></a>
-					</div>
-				</div>
+        <div class="languages">
+        <div class="container flex">
+          <div class="card">
+            <h4>HTML</h4>
+            <img src="./Images/html.png" alt="html" />
+          </div>
+          <div class="card">
+            <h4>CSS</h4>
+            <img src="./Images/css.png" alt="css" />
+          </div>
+          <div class="card">
+            <h4>SASS</h4>
+            <img src="./Images/sass.png" alt="sass" />
+          </div>
+          <div class="card">
+            <h4>TAILWIND</h4>
+            <img src="./Images/tailwind.png" alt="Tailwind" />
+          </div>
+          <div class="card">
+            <h4>JAVASCRIPT</h4>
+            <img src="./Images/js.png" alt="javascript" />
+          </div>
+          <div class="card">
+            <h4>REACT.JS</h4>
+            <img src="./Images/reactjs.png" alt="reactjs" />
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!--Portfolio section-->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h1>Projects</h1>
+        <h4>A Preview to my completed projects</h4>
+        <div class="projects">
+          <div class="project">
+            <div class="thumbnail">
+              <img src="./Images/TITA.png" alt="portfolio website" />
+            </div>
+            <h2>A FinTech App</h2>
+            <p>
+              This is a responsive Financial Tech App, built using HTML CSS and
+              javascript.
+            </p>
+            <div class="action">
+              <a href="https://tita-heaven.netlify.app/" target="_blank"
+                >Live Demo<i class="uil uil-eye"></i>
+              </a>
+              <a
+                href="https://github.com/Heavenlydawn/TITA-FinTech"
+                target="_blank"
+                >Github<i class="uil uil-github-alt"></i
+              ></a>
+            </div>
+          </div>
 
+          <div class="project">
+            <div class="thumbnail">
+              <img src="./Images/Loruki.PNG" alt="" />
+            </div>
+            <h2>A web app deployment website</h2>
+            <p>
+              This is a website that helps deploy web apps of all kinds, from
+              large scale enterprise APIs to static websites for individuals.
+              This page was built using HTML and CSS.
+            </p>
+            <div class="action">
+              <a
+                href="https://project-loruki-heaven.netlify.app/"
+                target="_blank"
+                >Live Demo <i class="uil uil-eye"></i>
+              </a>
+              <a
+                href="https://github.com/Heavenlydawn/Project-Loruki"
+                target="_blank"
+                >Github<i class="uil uil-github-alt"></i
+              ></a>
+            </div>
+          </div>
 
+          <div class="project">
+            <div class="thumbnail">
+              <img src="./Images/soundwave.PNG" alt="Music Web-App" />
+            </div>
+            <h2>A Music Web-App</h2>
+            <p>
+              This is a Web-App for Music discovery. it was built using HTML and
+              CSS.
+            </p>
+            <div class="action">
+              <a href="https://sound-wave-heaven.netlify.app/" target="_blank"
+                >Live Demo<i class="uil uil-eye"></i>
+              </a>
+              <a
+                href="https://github.com/Heavenlydawn/Sound-wave"
+                target="_blank"
+                >Github<i class="uil uil-github-alt"></i
+              ></a>
+            </div>
+          </div>
 
+          <div class="project">
+            <div class="thumbnail">
+              <img src="./Images/newyear.PNG" alt="New year countdown" />
+            </div>
+            <h2>New Year's Count down Web App</h2>
+            <p>
+              This is a Web-App for keeping track for the days hours minutes and
+              seconds to the New Year. it was built using HTML, CSS and
+              JavaScript.
+            </p>
+            <div class="action">
+              <a
+                href="https://heavenlydawn.github.io/New-Year-CountDown/"
+                target="_blank"
+                >Live Demo<i class="uil uil-eye"></i>
+              </a>
+              <a
+                href="https://github.com/Heavenlydawn/New-Year-CountDown"
+                target="_blank"
+                >Github<i class="uil uil-github-alt"></i
+              ></a>
+            </div>
+          </div>
 
-				<div class="project">
-					<div class="thumbnail">
-					    <img src="./Images/Loruki.PNG" alt="" />
-				    </div>
-						<h2>A web app deployment website</h2>
-						<p>This is a website that helps deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals. This page was built using HTML and CSS.
-					</p>
-					<div class="action">
-						<a href="https://project-loruki-heaven.netlify.app/" target="_blank">Live Demo <i class="uil uil-eye"></i> </a>
-						<a href="https://github.com/Heavenlydawn/Project-Loruki" target="_blank">Github<i class="uil uil-github-alt"></i></a>
-					</div>
-				</div>
+          <div class="project">
+            <div class="thumbnail">
+              <img src="./Images/music-app.PNG" alt="Music Web-App" />
+            </div>
+            <h2>A Music Web-App</h2>
+            <p>
+              This is a Web-App designed to play Music . it was built using HTML
+              CSS and JavaScript.
+            </p>
+            <div class="action">
+              <a
+                href="https://heavenlydawn.github.io/Music-App/"
+                target="_blank"
+                >Live Demo<i class="uil uil-eye"></i>
+              </a>
+              <a
+                href="https://github.com/Heavenlydawn/Music-App"
+                target="_blank"
+                >Github<i class="uil uil-github-alt"></i
+              ></a>
+            </div>
+          </div>
 
+          <div class="project">
+            <div class="thumbnail">
+              <img src="./Images/portfolio.PNG" alt="portfolio website" />
+            </div>
+            <h2>My portfolio</h2>
+            <p>
+              This is a responsive portfolio website, built using HTML CSS and
+              javascript.
+            </p>
+            <div class="action">
+              <a href="https://gabriel-heaven.vercel.app/" target="_blank"
+                >Live Demo<i class="uil uil-eye"></i>
+              </a>
+              <a
+                href="https://github.com/Heavenlydawn/GabrielHeaven"
+                target="_blank"
+                >Github<i class="uil uil-github-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!--footer section-->
+    <footer id="footer">
+      <div class="container">
+        <a href="#"><h3>Heaven</h3></a>
+        <ul class="menu">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
 
-				<div class="project">
-					<div class="thumbnail">
-					   <img src="./Images/soundwave.PNG" alt="Music Web-App">
-				    </div>
-					<h2>A Music Web-App</h2>
-					<p>This is a Web-App for Music discovery. it was built using HTML and CSS.</p>
-					<div class="action">
-						<a href="https://sound-wave-heaven.netlify.app/" target="_blank">Live Demo<i class="uil uil-eye"></i> </a>
-						<a href="https://github.com/Heavenlydawn/Sound-wave" target="_blank">Github<i class="uil uil-github-alt"></i></a>
-					</div>
-				</div>
+        <div class="socials">
+          <a href="https://twitter.com/GabrielHeavenl1"
+            ><i class="uil uil-twitter"></i
+          ></a>
+          <a href="https://github.com/Heavenlydawn"
+            ><i class="uil uil-github"></i
+          ></a>
+        </div>
+      </div>
+      <div class="copyright">Copyright &copy; Designed by Gabriel Heaven</div>
+    </footer>
 
-
-
-				<div class="project">
-					<div class="thumbnail">
-					   <img src="./Images/newyear.PNG" alt="New year countdown">
-				    </div>
-					<h2>New Year's Count down Web App</h2>
-					<p>This is a Web-App for keeping track for the days hours minutes and seconds to the New Year. it was built using HTML, CSS and JavaScript.</p>
-					<div class="action">
-						<a href="https://heavenlydawn.github.io/New-Year-CountDown/" target="_blank">Live Demo<i class="uil uil-eye"></i> </a>
-						<a href="https://github.com/Heavenlydawn/New-Year-CountDown" target="_blank">Github<i class="uil uil-github-alt"></i></a>
-					</div>
-				</div>
-
-
-
-				<div class="project">
-					<div class="thumbnail">
-					   <img src="./Images/music-app.PNG" alt="Music Web-App">
-				    </div>
-					<h2>A Music Web-App</h2>
-					<p>This is a Web-App designed to play Music . it was built using HTML CSS and JavaScript.</p>
-					<div class="action">
-						<a href="https://heavenlydawn.github.io/Music-App/" target="_blank">Live Demo<i class="uil uil-eye"></i> </a>
-						<a href="https://github.com/Heavenlydawn/Music-App" target="_blank">Github<i class="uil uil-github-alt"></i></a>
-					</div>
-				</div>
-
-
-
-
-
-				<div class="project">
-					<div class="thumbnail">
-					   <img src="./Images/portfolio.PNG" alt="portfolio website">
-				    </div>
-					<h2>My portfolio</h2>
-					<p>This is a responsive portfolio website, built using HTML CSS and javascript.</p>
-					<div class="action">
-						<a href="https://gabriel-heaven.vercel.app/" target="_blank">Live Demo<i class="uil uil-eye"></i> </a>
-						<a href="https://github.com/Heavenlydawn/GabrielHeaven" target="_blank">Github<i class="uil uil-github-alt"></i></a>
-					</div>
-				</div>
-		
-			</div>
-		</div>
-	</section>
-
-
-	<!--footer section-->
-	<footer id="footer">
-		<div class="container">
-			<a href="#"><h3>Heaven</h3></a>
-			<ul class="menu">
-				<li><a href="#home" class="active">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>			
-			</ul>
-
-			<div class="socials">
-				<a href="https://twitter.com/GabrielHeavenl1"><i class="uil uil-twitter"></i></a>
-				<a href="https://github.com/Heavenlydawn"><i class="uil uil-github"></i></a>
-			</div>	
-		</div>
-		<div class="copyright">
-			Copyright &copy; Designed by Gabriel Heaven
-		</div>
-	</footer>
-
-	<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

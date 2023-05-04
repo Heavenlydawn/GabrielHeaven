@@ -1,0 +1,68 @@
+.slides {
+  height: 75vh;
+  padding: 10px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.slides .slider-list {
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 20px;
+}
+
+.slides h2 {
+  font-size: 30px;
+  position: relative;
+  bottom: -60%;
+  z-index: 1;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #000;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.slides  h2:hover {
+  -webkit-text-fill-color: #fff;
+  transform: translateX(-10px);
+}
+
+.img-slider {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 90%;
+  background-image: url(./Images/TITA.png);
+  background-size: cover;
+  background-position: center;
+  transition: background-image 2s;
+}
+
+.slides h2:nth-child(2):hover ~ .img-slider {
+  background-image: url(./images/Loruki.PNG);
+}
+
+.slides h2:nth-child(3):hover ~ .img-slider {
+  background-image: url(./images/music-app.PNG);
+}
+
+.slides h2:nth-child(4):hover ~ .img-slider {
+  background-image: url(./images/newyear.PNG);
+}
+.slides h2:nth-child(5):hover ~ .img-slider {
+  background-image: url(./images/portfolio.PNG);
+}
+
+@media screen and (max-width: 867px) {
+.slides{
+    display: none;
+}
+.about h1{
+    display: none;
+}
+}
